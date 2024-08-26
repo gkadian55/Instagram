@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+    body{
+        margin: 0px;
+    }
+    body::-webkit-scrollbar{
+        display: none;
+    }
+    div,
+    button{
+        font-family: Roboto;
+        letter-spacing: 0.1px;
+    }
+</style>
+
+<link rel="stylesheet" href="content.css">
+<link rel="stylesheet" href="menu-sidebar.css">
+<link rel="stylesheet" href="suggested-sidebar.css">
+</head>
+
+<body>
+
+<div class="menu">
+    <img class="ig-logo" src="icons/instagram-logo.png">
+    <div class="menu-options">
+        <div class="option-container">
+            <img src="icons/home.png">
+            <div>Home</div>
+        </div>
+        <div class="option-container">
+            <img src="icons/search.png">
+            <div>Search</div>
+        </div>
+        <div class="option-container">
+            <img src="icons/explore.png">
+            <div>Explore</div>
+        </div>
+        <div class="option-container">
+            <img src="icons/reel.png">
+            <div>Reels</div>
+        </div>
+        <div class="option-container">
+            <img src="icons/messenger.png">
+            <div>Messages</div>
+        </div>
+        <div class="option-container">
+            <img src="icons/like.png">
+            <div>Notifications</div>
+        </div>
+        <div class="option-container">
+            <img src="icons/create.png">
+            <div>Create</div>
+        </div>
+        <div class="option-container">
+            <img class="profile-pic" src="pfp/insta-user.jpg">
+            <div>Profile</div>
+        </div>
+        <div class="option-container" id="more">
+            <img src="icons/hamburger.png">
+            <div>More</div>
+        </div>
+    </div>
+</div>
+
+<main>
+    <div class="story-bar">
+        <div class="story-preview">
+            <div class="acc-image">
+                <img class="ring" src="icons/story-ring.webp">
+                <img class="pfp" src="pfp/dua.jpg">
+            </div>
+            <div class="name">dualipa</div>
+        </div>
+        <div class="story-preview">
+            <div class="acc-image">
+                <img class="ring" src="icons/story-ring.webp">
+                <img class="pfp" src="pfp/ichigo.jpg">
+            </div>
+            <div class="name">ichigo.to</div>
+        </div>
+        <div class="story-preview">
+            <div class="acc-image">
+                <img class="ring" src="icons/story-ring.webp">
+                <img class="pfp" src="pfp/cristiano.jpg">
+            </div>
+            <div class="name">cristiano</div>
+        </div>
+        <div class="story-preview">
+            <div class="acc-image">
+                <img class="ring" src="icons/story-ring.webp">
+                <img class="pfp" src="pfp/gilli_any.jpg">
+            </div>
+            <div class="name">gilli_any</div>
+        </div>
+        <div class="story-preview">
+            <div class="acc-image">
+                <img class="ring" src="icons/story-ring.webp">
+                <img class="pfp" src="pfp/walker.jpg">
+            </div>
+            <div class="name">paulwalker</div>
+        </div>
+        <div class="story-preview">
+            <div class="acc-image">
+                <img class="ring" src="icons/story-ring.webp">
+                <img class="pfp" src="pfp/netflix.png">
+            </div>
+            <div class="name">netflix</div>
+        </div>
+        <div class="story-preview">
+            <div class="acc-image">
+                <img class="ring" src="icons/story-ring.webp">
+                <img class="pfp" src="pfp/batman.jpg">
+            </div>
+            <div class="name">batman</div>
+        </div>
+        <div class="story-preview">
+            <div class="acc-image">
+                <img class="ring" src="icons/story-ring.webp">
+                <img class="pfp" src="pfp/urahara.jpg">
+            </div>
+            <div class="name">kisuke_urahara</div>
+        </div>
+        <div class="story-preview">
+            <div class="acc-image">
+                <img class="ring" src="icons/story-ring.webp">
+                <img class="pfp" src="pfp/rdj.jfif">
+            </div>
+            <div class="name">robertdowneyjr</div>
+        </div>
+        <div class="story-preview">
+            <div class="acc-image">
+                <img class="ring" src="icons/story-ring.webp">
+                <img class="pfp" src="pfp/kohli.jfif">
+            </div>
+            <div class="name">virat.kohli</div>
+        </div>
+        <div class="story-preview">
+            <div class="acc-image">
+                <img class="ring" src="icons/story-ring.webp">
+                <img class="pfp" src="pfp/maroon5.jpg">
+            </div>
+            <div class="name">maroon5</div>
+        </div>
+        <div class="story-preview">
+            <div class="acc-image">
+                <img class="ring" src="icons/story-ring.webp">
+                <img class="pfp" src="pfp/sidemen.jpg">
+            </div>
+            <div class="name">sidemen</div>
+        </div>
+    </div>
+
+    <div class="post-layout">
+        <div class="post-view">
+            <div class="post-header">
+                <div class="post-header-left">
+                    <img class="post-pfp" src="pfp/netflix.png">
+                    <div class="account-preview">
+                        <div class="post-account">netflix</div>
+                        <div class="account-profile">
+                            <div class="account-info">
+                                <img class="ad-pfp" src="pfp/netflix.png">
+                                <div class="account-details">
+                                    <div class="ad-username">
+                                        <div>netflix</div>
+                                        <img class="verification" src="icons/verification.webp">
+                                    </div>
+                                    <div class="ad-name">Netflix</div>
+                                    <div class="thread">
+                                        <img src="icons/threads.png">
+                                        <div>netflix</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-reach">
+                                <div class="ar-section">
+                                    <div class="ar-value">9,008</div>
+                                    <div class="ar-type">posts</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">33.6M</div>
+                                    <div class="ar-type">followers</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">1,286</div>
+                                    <div class="ar-type">following</div>
+                                </div>
+                            </div>
+                            <div class="post-grid">
+                                <div><img src="posts/holy-1.jpg"></div>
+                                <div><img src="posts/holy-2.jpg"></div>
+                                <div><img src="posts/holy-3.jpg"></div>
+                            </div>
+                            <div class="buttons-grid">
+                                <button class="bg-dm"><img src="icons/messenger-white.png">Message</button>
+                                <button class="bg-flw">Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="verification" src="icons/verification.webp">
+                    <div class="time">• 30m</div>
+                </div>
+                <img class="triple-dots" src="icons/more.png">
+            </div>
+            <img class="post" src="posts/holy-1.jpg">
+            <div class="post-actions">
+                <div>
+                    <img src="icons/like.png">
+                    <img id="icon-resize" src="icons/comment.png">
+                    <img id="icon-resize" src="icons/send.png">
+                </div>
+                <div>
+                    <img id="save-icon" src="icons/save.png">
+                </div>
+            </div>
+            <div class="num-likes">21,000 likes</div>
+            <div class="caption"><span class="post-account">netflix</span> THE WITCHER <span class="mention">@henrycavill</span></div>
+            <div class="num-comments">View all 7,009 comments</div>
+            <input type="text" placeholder="Add a comment..." class="add-comment">
+        </div>
+        <div class="post-view">
+            <div class="post-header">
+                <div class="post-header-left">
+                    <img class="post-pfp" src="pfp/rdj.jfif">
+                    <div class="account-preview">
+                        <div class="post-account">robertdowneyjr</div>
+                        <div class="account-profile">
+                            <div class="account-info">
+                                <img class="ad-pfp" src="pfp/rdj.jfif">
+                                <div class="account-details">
+                                    <div class="ad-username">
+                                        <div>robertdowneyjr</div>
+                                        <img class="verification" src="icons/verification.webp">
+                                    </div>
+                                    <div class="ad-name">Robert Downey Jr.</div>
+                                    <div class="thread">
+                                        <img src="icons/threads.png">
+                                        <div>robertdowneyjr</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-reach">
+                                <div class="ar-section">
+                                    <div class="ar-value">568</div>
+                                    <div class="ar-type">posts</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">58.1M</div>
+                                    <div class="ar-type">followers</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">8</div>
+                                    <div class="ar-type">following</div>
+                                </div>
+                            </div>
+                            <div class="post-grid">
+                                <div><img src="posts/rdj-1.jpg"></div>
+                                <div><img src="posts/rdj-2.jpg"></div>
+                                <div><img src="posts/rdj-3.jpg"></div>
+                            </div>
+                            <div class="buttons-grid">
+                                <button class="bg-dm"><img src="icons/messenger-white.png">Message</button>
+                                <button class="bg-flw">Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="verification" src="icons/verification.webp">
+                    <div class="time">• 1h</div>
+                </div>
+                <img class="triple-dots" src="icons/more.png">
+            </div>
+            <img class="post" src="posts/rdj-1.jpg">
+            <div class="post-actions">
+                <div>
+                    <img src="icons/like.png">
+                    <img id="icon-resize" src="icons/comment.png">
+                    <img id="icon-resize" src="icons/send.png">
+                </div>
+                <div>
+                    <img id="save-icon" src="icons/save.png">
+                </div>
+            </div>
+            <div class="num-likes">21,000 likes</div>
+            <div class="caption"><span class="post-account">robertdowneyjr</span> I have lived long enough to see myself become the villian.</div>
+            <div class="num-comments">View all 7,009 comments</div>
+            <input type="text" placeholder="Add a comment..." class="add-comment">
+        </div>
+        <div class="post-view">
+            <div class="post-header">
+                <div class="post-header-left">
+                    <img class="post-pfp" src="pfp/dua.jpg">
+                    <div class="account-preview">
+                        <div class="post-account">dualipa</div>
+                        <div class="account-profile">
+                            <div class="account-info">
+                                <img class="ad-pfp" src="pfp/dua.jpg">
+                                <div class="account-details">
+                                    <div class="ad-username">
+                                        <div>dualipa</div>
+                                        <img class="verification" src="icons/verification.webp">
+                                    </div>
+                                    <div class="ad-name">DUA LIPA</div>
+                                </div>
+                            </div>
+                            <div class="account-reach">
+                                <div class="ar-section">
+                                    <div class="ar-value">207</div>
+                                    <div class="ar-type">posts</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">87.8M</div>
+                                    <div class="ar-type">followers</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">4</div>
+                                    <div class="ar-type">following</div>
+                                </div>
+                            </div>
+                            <div class="post-grid">
+                                <div><img src="posts/dua-1.jpg"></div>
+                                <div><img src="posts/dua-2.jpg"></div>
+                                <div><img src="posts/dua-4.jpg"></div>
+                            </div>
+                            <div class="buttons-grid">
+                                <button class="bg-dm"><img src="icons/messenger-white.png">Message</button>
+                                <button class="bg-flw">Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="verification" src="icons/verification.webp">
+                    <div class="time">• 2w</div>
+                </div>
+                <img class="triple-dots" src="icons/more.png">
+            </div>
+            <img class="post" src="posts/dua-1.jpg">
+            <div class="post-actions">
+                <div>
+                    <img src="icons/like.png">
+                    <img id="icon-resize" src="icons/comment.png">
+                    <img id="icon-resize" src="icons/send.png">
+                </div>
+                <div>
+                    <img id="save-icon" src="icons/save.png">
+                </div>
+            </div>
+            <div class="num-likes">21,000 likes</div>
+            <div class="caption"><span class="post-account">dualipa</span> Cause TRAINING SEASON's Over</div>
+            <div class="num-comments">View all 7,009 comments</div>
+            <input type="text" placeholder="Add a comment..." class="add-comment">
+        </div>
+        <div class="post-view">
+            <div class="post-header">
+                <div class="post-header-left">
+                    <img class="post-pfp" src="pfp/gilli_any.jpg">
+                    <div class="account-preview">
+                        <div class="post-account">gilli_any</div>
+                        <div class="account-profile">
+                            <div class="account-info">
+                                <img class="ad-pfp" src="pfp/gilli_any.jpg">
+                                <div class="account-details">
+                                    <div class="ad-username">
+                                        <div>gilli_any</div>
+                                        <img class="verification" src="icons/verification.webp">
+                                    </div>
+                                    <div class="ad-name">Gil_liany</div>
+                                    <div class="thread">
+                                        <img src="icons/threads.png">
+                                        <div>gilli_any</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-reach">
+                                <div class="ar-section">
+                                    <div class="ar-value">397</div>
+                                    <div class="ar-type">posts</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">1M</div>
+                                    <div class="ar-type">followers</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">17</div>
+                                    <div class="ar-type">following</div>
+                                </div>
+                            </div>
+                            <div class="post-grid">
+                                <div><img src="posts/cc-1.jpg"></div>
+                                <div><img src="posts/cc-2.jpg"></div>
+                                <div><img src="posts/cc-3.jpg"></div>
+                            </div>
+                            <div class="buttons-grid">
+                                <button class="bg-dm"><img src="icons/messenger-white.png">Message</button>
+                                <button class="bg-flw">Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="verification" src="icons/verification.webp">
+                    <div class="time">• 1y</div>
+                </div>
+                <img class="triple-dots" src="icons/more.png">
+            </div>
+            <video class="post" muted autoplay loop controls>
+                <source src="posts/chipi-chapa.mp4">
+            </video>
+            <div class="post-actions">
+                <div>
+                    <img src="icons/like.png">
+                    <img id="icon-resize" src="icons/comment.png">
+                    <img id="icon-resize" src="icons/send.png">
+                </div>
+                <div>
+                    <img id="save-icon" src="icons/save.png">
+                </div>
+            </div>
+            <div class="num-likes">21,000 likes</div>
+            <div class="caption"><span class="post-account">gilli_any</span> In my mind</div>
+            <div class="num-comments">View all 7,009 comments</div>
+            <input type="text" placeholder="Add a comment..." class="add-comment">
+        </div>
+        <div class="post-view">
+            <div class="post-header">
+                <div class="post-header-left">
+                    <img class="post-pfp" src="pfp/netflix.png">
+                    <div class="account-preview">
+                        <div class="post-account">netflix</div>
+                        <div class="account-profile">
+                            <div class="account-info">
+                                <img class="ad-pfp" src="pfp/netflix.png">
+                                <div class="account-details">
+                                    <div class="ad-username">
+                                        <div>netflix</div>
+                                        <img class="verification" src="icons/verification.webp">
+                                    </div>
+                                    <div class="ad-name">Netflix</div>
+                                    <div class="thread">
+                                        <img src="icons/threads.png">
+                                        <div>netflix</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-reach">
+                                <div class="ar-section">
+                                    <div class="ar-value">9,008</div>
+                                    <div class="ar-type">posts</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">33.6M</div>
+                                    <div class="ar-type">followers</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">1,286</div>
+                                    <div class="ar-type">following</div>
+                                </div>
+                            </div>
+                            <div class="post-grid">
+                                <div><img src="posts/holy-1.jpg"></div>
+                                <div><img src="posts/holy-2.jpg"></div>
+                                <div><img src="posts/holy-3.jpg"></div>
+                            </div>
+                            <div class="buttons-grid">
+                                <button class="bg-dm"><img src="icons/messenger-white.png">Message</button>
+                                <button class="bg-flw">Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="verification" src="icons/verification.webp">
+                    <div class="time">• 10h</div>
+                </div>
+                <img class="triple-dots" src="icons/more.png">
+            </div>
+            <img class="post" src="posts/holy-2.jpg">
+            <div class="post-actions">
+                <div>
+                    <img src="icons/like.png">
+                    <img id="icon-resize" src="icons/comment.png">
+                    <img id="icon-resize" src="icons/send.png">
+                </div>
+                <div>
+                    <img id="save-icon" src="icons/save.png">
+                </div>
+            </div>
+            <div class="num-likes">21,000 likes</div>
+            <div class="caption"><span class="post-account">netflix</span> Winner takes all <span class="mention">@paulwalker</span></div>
+            <div class="num-comments">View all 7,009 comments</div>
+            <input type="text" placeholder="Add a comment..." class="add-comment">
+        </div>
+        <div class="post-view">
+            <div class="post-header">
+                <div class="post-header-left">
+                    <img class="post-pfp" src="pfp/ichigo.jpg">
+                    <div class="account-preview">
+                        <div class="post-account">ichigo.to</div>
+                        <div class="account-profile">
+                            <div class="account-info">
+                                <img class="ad-pfp" src="pfp/ichigo.jpg">
+                                <div class="account-details">
+                                    <div class="ad-username">
+                                        <div>ichigo.to</div>
+                                        <img class="verification" src="icons/verification.webp">
+                                    </div>
+                                    <div class="ad-name">Kurosaki Ichigo</div>
+                                    <div class="thread">
+                                        <img src="icons/threads.png">
+                                        <div>ichigo.to</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-reach">
+                                <div class="ar-section">
+                                    <div class="ar-value">69</div>
+                                    <div class="ar-type">posts</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">420k</div>
+                                    <div class="ar-type">followers</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">8,008</div>
+                                    <div class="ar-type">following</div>
+                                </div>
+                            </div>
+                            <div class="post-grid">
+                                <div><img src="posts/anime-1.jpg"></div>
+                                <div><img src="posts/anime-2.jpg"></div>
+                                <div><img src="posts/anime-3.jpg"></div>
+                            </div>
+                            <div class="buttons-grid">
+                                <button class="bg-dm"><img src="icons/messenger-white.png">Message</button>
+                                <button class="bg-flw">Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="verification" src="icons/verification.webp">
+                    <div class="time">• 1y</div>
+                </div>
+                <img class="triple-dots" src="icons/more.png">
+            </div>
+            <img class="post" src="posts/anime-2.jpg">
+            <div class="post-actions">
+                <div>
+                    <img src="icons/like.png">
+                    <img id="icon-resize" src="icons/comment.png">
+                    <img id="icon-resize" src="icons/send.png">
+                </div>
+                <div>
+                    <img id="save-icon" src="icons/save.png">
+                </div>
+            </div>
+            <div class="num-likes">21,000 likes</div>
+            <div class="caption"><span class="post-account">ichigo.to</span> All set to break the net...</div>
+            <div class="num-comments">View all 7,009 comments</div>
+            <input type="text" placeholder="Add a comment..." class="add-comment">
+        </div>
+        <div class="post-view">
+            <div class="post-header">
+                <div class="post-header-left">
+                    <img class="post-pfp" src="pfp/rdj.jfif">
+                    <div class="account-preview">
+                        <div class="post-account">robertdowneyjr</div>
+                        <div class="account-profile">
+                            <div class="account-info">
+                                <img class="ad-pfp" src="pfp/rdj.jfif">
+                                <div class="account-details">
+                                    <div class="ad-username">
+                                        <div>robertdowneyjr</div>
+                                        <img class="verification" src="icons/verification.webp">
+                                    </div>
+                                    <div class="ad-name">Robert Downey Jr.</div>
+                                    <div class="thread">
+                                        <img src="icons/threads.png">
+                                        <div>robertdowneyjr</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-reach">
+                                <div class="ar-section">
+                                    <div class="ar-value">568</div>
+                                    <div class="ar-type">posts</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">58.1M</div>
+                                    <div class="ar-type">followers</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">8</div>
+                                    <div class="ar-type">following</div>
+                                </div>
+                            </div>
+                            <div class="post-grid">
+                                <div><img src="posts/rdj-1.jpg"></div>
+                                <div><img src="posts/rdj-2.jpg"></div>
+                                <div><img src="posts/rdj-3.jpg"></div>
+                            </div>
+                            <div class="buttons-grid">
+                                <button class="bg-dm"><img src="icons/messenger-white.png">Message</button>
+                                <button class="bg-flw">Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="verification" src="icons/verification.webp">
+                    <div class="time">• 3y</div>
+                </div>
+                <img class="triple-dots" src="icons/more.png">
+            </div>
+            <img class="post" src="posts/rdj-2.jpg">
+            <div class="post-actions">
+                <div>
+                    <img src="icons/like.png">
+                    <img id="icon-resize" src="icons/comment.png">
+                    <img id="icon-resize" src="icons/send.png">
+                </div>
+                <div>
+                    <img id="save-icon" src="icons/save.png">
+                </div>
+            </div>
+            <div class="num-likes">21,000 likes</div>
+            <div class="caption"><span class="post-account">robertdowneyjr</span> Let the ENDGAME begin!!</div>
+            <div class="num-comments">View all 7,009 comments</div>
+            <input type="text" placeholder="Add a comment..." class="add-comment">
+        </div>
+        <div class="post-view">
+            <div class="post-header">
+                <div class="post-header-left">
+                    <img class="post-pfp" src="pfp/ichigo.jpg">
+                    <div class="account-preview">
+                        <div class="post-account">ichigo.to</div>
+                        <div class="account-profile">
+                            <div class="account-info">
+                                <img class="ad-pfp" src="pfp/ichigo.jpg">
+                                <div class="account-details">
+                                    <div class="ad-username">
+                                        <div>ichigo.to</div>
+                                        <img class="verification" src="icons/verification.webp">
+                                    </div>
+                                    <div class="ad-name">Kurosaki Ichigo</div>
+                                    <div class="thread">
+                                        <img src="icons/threads.png">
+                                        <div>ichigo.to</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-reach">
+                                <div class="ar-section">
+                                    <div class="ar-value">69</div>
+                                    <div class="ar-type">posts</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">420k</div>
+                                    <div class="ar-type">followers</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">8,008</div>
+                                    <div class="ar-type">following</div>
+                                </div>
+                            </div>
+                            <div class="post-grid">
+                                <div><img src="posts/anime-1.jpg"></div>
+                                <div><img src="posts/anime-2.jpg"></div>
+                                <div><img src="posts/anime-3.jpg"></div>
+                            </div>
+                            <div class="buttons-grid">
+                                <button class="bg-dm"><img src="icons/messenger-white.png">Message</button>
+                                <button class="bg-flw">Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="verification" src="icons/verification.webp">
+                    <div class="time">• 1y</div>
+                </div>
+                <img class="triple-dots" src="icons/more.png">
+            </div>
+            <img class="post" src="posts/anime-1.jpg">
+            <div class="post-actions">
+                <div>
+                    <img src="icons/like.png">
+                    <img id="icon-resize" src="icons/comment.png">
+                    <img id="icon-resize" src="icons/send.png">
+                </div>
+                <div>
+                    <img id="save-icon" src="icons/save.png">
+                </div>
+            </div>
+            <div class="num-likes">21,000 likes</div>
+            <div class="caption"><span class="post-account">ichigo.to</span> It's been a thousand years since...</div>
+            <div class="num-comments">View all 7,009 comments</div>
+            <input type="text" placeholder="Add a comment..." class="add-comment">
+        </div>
+        <div class="post-view">
+            <div class="post-header">
+                <div class="post-header-left">
+                    <img class="post-pfp" src="pfp/netflix.png">
+                    <div class="account-preview">
+                        <div class="post-account">netflix</div>
+                        <div class="account-profile">
+                            <div class="account-info">
+                                <img class="ad-pfp" src="pfp/netflix.png">
+                                <div class="account-details">
+                                    <div class="ad-username">
+                                        <div>netflix</div>
+                                        <img class="verification" src="icons/verification.webp">
+                                    </div>
+                                    <div class="ad-name">Netflix</div>
+                                    <div class="thread">
+                                        <img src="icons/threads.png">
+                                        <div>netflix</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-reach">
+                                <div class="ar-section">
+                                    <div class="ar-value">9,008</div>
+                                    <div class="ar-type">posts</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">33.6M</div>
+                                    <div class="ar-type">followers</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">1,286</div>
+                                    <div class="ar-type">following</div>
+                                </div>
+                            </div>
+                            <div class="post-grid">
+                                <div><img src="posts/holy-1.jpg"></div>
+                                <div><img src="posts/holy-2.jpg"></div>
+                                <div><img src="posts/holy-3.jpg"></div>
+                            </div>
+                            <div class="buttons-grid">
+                                <button class="bg-dm"><img src="icons/messenger-white.png">Message</button>
+                                <button class="bg-flw">Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="verification" src="icons/verification.webp">
+                    <div class="time">• 4d</div>
+                </div>
+                <img class="triple-dots" src="icons/more.png">
+            </div>
+            <img class="post" src="posts/holy-3.jpg">
+            <div class="post-actions">
+                <div>
+                    <img src="icons/like.png">
+                    <img id="icon-resize" src="icons/comment.png">
+                    <img id="icon-resize" src="icons/send.png">
+                </div>
+                <div>
+                    <img id="save-icon" src="icons/save.png">
+                </div>
+            </div>
+            <div class="num-likes">21,000 likes</div>
+            <div class="caption"><span class="post-account">netflix</span> Tyler Durden from Fight Club</div>
+            <div class="num-comments">View all 7,009 comments</div>
+            <input type="text" placeholder="Add a comment..." class="add-comment">
+        </div>
+        <div class="post-view">
+            <div class="post-header">
+                <div class="post-header-left">
+                    <img class="post-pfp" src="pfp/dua.jpg">
+                    <div class="account-preview">
+                        <div class="post-account">dualipa</div>
+                        <div class="account-profile">
+                            <div class="account-info">
+                                <img class="ad-pfp" src="pfp/dua.jpg">
+                                <div class="account-details">
+                                    <div class="ad-username">
+                                        <div>dualipa</div>
+                                        <img class="verification" src="icons/verification.webp">
+                                    </div>
+                                    <div class="ad-name">DUA LIPA</div>
+                                </div>
+                            </div>
+                            <div class="account-reach">
+                                <div class="ar-section">
+                                    <div class="ar-value">207</div>
+                                    <div class="ar-type">posts</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">87.8M</div>
+                                    <div class="ar-type">followers</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">4</div>
+                                    <div class="ar-type">following</div>
+                                </div>
+                            </div>
+                            <div class="post-grid">
+                                <div><img src="posts/dua-1.jpg"></div>
+                                <div><img src="posts/dua-2.jpg"></div>
+                                <div><img src="posts/dua-4.jpg"></div>
+                            </div>
+                            <div class="buttons-grid">
+                                <button class="bg-dm"><img src="icons/messenger-white.png">Message</button>
+                                <button class="bg-flw">Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="verification" src="icons/verification.webp">
+                    <div class="time">• 12w</div>
+                </div>
+                <img class="triple-dots" src="icons/more.png">
+            </div>
+            <img class="post" src="posts/dua-2.jpg">
+            <div class="post-actions">
+                <div>
+                    <img src="icons/like.png">
+                    <img id="icon-resize" src="icons/comment.png">
+                    <img id="icon-resize" src="icons/send.png">
+                </div>
+                <div>
+                    <img id="save-icon" src="icons/save.png">
+                </div>
+            </div>
+            <div class="num-likes">21,000 likes</div>
+            <div class="caption"><span class="post-account">dualipa</span> I am here, Paris.</div>
+            <div class="num-comments">View all 7,009 comments</div>
+            <input type="text" placeholder="Add a comment..." class="add-comment">
+        </div>
+        <div class="post-view">
+            <div class="post-header">
+                <div class="post-header-left">
+                    <img class="post-pfp" src="pfp/rdj.jfif">
+                    <div class="account-preview">
+                        <div class="post-account">robertdowneyjr</div>
+                        <div class="account-profile">
+                            <div class="account-info">
+                                <img class="ad-pfp" src="pfp/rdj.jfif">
+                                <div class="account-details">
+                                    <div class="ad-username">
+                                        <div>robertdowneyjr</div>
+                                        <img class="verification" src="icons/verification.webp">
+                                    </div>
+                                    <div class="ad-name">Robert Downey Jr.</div>
+                                    <div class="thread">
+                                        <img src="icons/threads.png">
+                                        <div>robertdowneyjr</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-reach">
+                                <div class="ar-section">
+                                    <div class="ar-value">568</div>
+                                    <div class="ar-type">posts</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">58.1M</div>
+                                    <div class="ar-type">followers</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">8</div>
+                                    <div class="ar-type">following</div>
+                                </div>
+                            </div>
+                            <div class="post-grid">
+                                <div><img src="posts/rdj-1.jpg"></div>
+                                <div><img src="posts/rdj-2.jpg"></div>
+                                <div><img src="posts/rdj-3.jpg"></div>
+                            </div>
+                            <div class="buttons-grid">
+                                <button class="bg-dm"><img src="icons/messenger-white.png">Message</button>
+                                <button class="bg-flw">Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="verification" src="icons/verification.webp">
+                    <div class="time">• 5y</div>
+                </div>
+                <img class="triple-dots" src="icons/more.png">
+            </div>
+            <img class="post" src="posts/rdj-3.jpg">
+            <div class="post-actions">
+                <div>
+                    <img src="icons/like.png">
+                    <img id="icon-resize" src="icons/comment.png">
+                    <img id="icon-resize" src="icons/send.png">
+                </div>
+                <div>
+                    <img id="save-icon" src="icons/save.png">
+                </div>
+            </div>
+            <div class="num-likes">21,000 likes</div>
+            <div class="caption"><span class="post-account">robertdowneyjr</span> Look out for me, Holmes.</div>
+            <div class="num-comments">View all 7,009 comments</div>
+            <input type="text" placeholder="Add a comment..." class="add-comment">
+        </div>
+        <div class="post-view">
+            <div class="post-header">
+                <div class="post-header-left">
+                    <img class="post-pfp" src="pfp/netflix.png">
+                    <div class="account-preview">
+                        <div class="post-account">netflix</div>
+                        <div class="account-profile">
+                            <div class="account-info">
+                                <img class="ad-pfp" src="pfp/netflix.png">
+                                <div class="account-details">
+                                    <div class="ad-username">
+                                        <div>netflix</div>
+                                        <img class="verification" src="icons/verification.webp">
+                                    </div>
+                                    <div class="ad-name">Netflix</div>
+                                    <div class="thread">
+                                        <img src="icons/threads.png">
+                                        <div>netflix</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-reach">
+                                <div class="ar-section">
+                                    <div class="ar-value">9,008</div>
+                                    <div class="ar-type">posts</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">33.6M</div>
+                                    <div class="ar-type">followers</div>
+                                </div>
+                                <div class="ar-section">
+                                    <div class="ar-value">1,286</div>
+                                    <div class="ar-type">following</div>
+                                </div>
+                            </div>
+                            <div class="post-grid">
+                                <div><img src="posts/holy-1.jpg"></div>
+                                <div><img src="posts/holy-2.jpg"></div>
+                                <div><img src="posts/holy-3.jpg"></div>
+                            </div>
+                            <div class="buttons-grid">
+                                <button class="bg-dm"><img src="icons/messenger-white.png">Message</button>
+                                <button class="bg-flw">Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="verification" src="icons/verification.webp">
+                    <div class="time">• 1w</div>
+                </div>
+                <img class="triple-dots" src="icons/more.png">
+            </div>
+            <img class="post" src="posts/holy-4.webp">
+            <div class="post-actions">
+                <div>
+                    <img src="icons/like.png">
+                    <img id="icon-resize" src="icons/comment.png">
+                    <img id="icon-resize" src="icons/send.png">
+                </div>
+                <div>
+                    <img id="save-icon" src="icons/save.png">
+                </div>
+            </div>
+            <div class="num-likes">21,000 likes</div>
+            <div class="caption"><span class="post-account">netflix</span> Drive <span class="mention">@ryangosling</span></div>
+            <div class="num-comments">View all 7,009 comments</div>
+            <input type="text" placeholder="Add a comment..." class="add-comment">
+        </div>
+    </div>
+</main>
+
+<div class="suggested">
+    <div class="suggested-align">
+        <div class="right-section-profile">
+            <img class="right-pfp" src="pfp/insta-user.jpg">
+            <div class="right-info">
+                <div>
+                    <div class="right-username">gauravkadiann</div>
+                    <div class="right-name">Gaurav Kadian</div>
+                </div>
+                <button class="right-action">Switch</button>
+            </div>
+        </div>
+        <div class="more-bar">
+            <div class="more-left">Suggested for you</div>
+            <button class="more-right">See All</button>
+        </div>
+        <div class="right-section-suggestion">
+            <img class="right-pfp" src="pfp/ryan.jpg">
+            <div class="right-info">
+                <div>
+                    <div class="right-username">
+                        <div>vancityreynolds</div>
+                        <img src="icons/verification.webp">
+                    </div>
+                    <div class="fame">The DEADPOOL</div>
+                </div>
+                <button class="right-action">Follow</button>
+            </div>
+        </div>
+        <div class="right-section-suggestion">
+            <img class="right-pfp" src="pfp/henry.jpg">
+            <div class="right-info">
+                <div>
+                    <div class="right-username">
+                        <div>henrycavill</div>
+                        <img src="icons/verification.webp">
+                    </div>
+                    <div class="fame">Actor</div>
+                </div>
+                <button class="right-action">Follow</button>
+            </div>
+        </div>
+        <div class="right-section-suggestion">
+            <img class="right-pfp" src="pfp/gadot.jpg">
+            <div class="right-info">
+                <div>
+                    <div class="right-username">
+                        <div>gal_gadot</div>
+                        <img src="icons/verification.webp">
+                    </div>
+                    <div class="fame">Actress</div>
+                </div>
+                <button class="right-action">Follow</button>
+            </div>
+        </div>
+        <div class="right-section-suggestion">
+            <img class="right-pfp" src="pfp/beer.jpg">
+            <div class="right-info">
+                <div>
+                    <div class="right-username">
+                        <div>madisonbeer</div>
+                        <img src="icons/verification.webp">
+                    </div>
+                    <div class="fame">Song Writer & Singer</div>
+                </div>
+                <button class="right-action">Follow</button>
+            </div>
+        </div>
+        <div class="right-section-suggestion">
+            <img class="right-pfp" src="pfp/gosling.webp">
+            <div class="right-info">
+                <div>
+                    <div class="right-username">
+                        <div>ryangosling</div>
+                        <img src="icons/verification.webp">
+                    </div>
+                    <div class="fame">I Am Just Ken</div>
+                </div>
+                <button class="right-action">Follow</button>
+            </div>
+        </div>
+        <div class="right-section-suggestion">
+            <img class="right-pfp" src="pfp/pattinson.jpg">
+            <div class="right-info">
+                <div>
+                    <div class="right-username">
+                        <div>robertpattinsonofficial</div>
+                        <img src="icons/verification.webp">
+                    </div>
+                    <div class="fame">I Am Vengeance</div>
+                </div>
+                <button class="right-action">Follow</button>
+            </div>
+        </div>
+        <div class="support"><span class=support-link>About</span> . <span class="support-link">Help</span> . <span class="support-link">Press</span> . <span class="support-link">API</span> . <span class="support-link">Jobs</span> . <span class="support-link">Privacy</span> . <span class="support-link">Terms</span> . <span class="support-link">Locations</span> . <span class="support-link">Language</span> . <span class="support-link">Meta Verified</span></div>
+        <div class="copyright"><span class="support-link">© 2024 INSTAGRAM FROM META</span></div>
+    </div>
+</div>
+
+</body>
+
+</html>

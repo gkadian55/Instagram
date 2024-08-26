@@ -1,0 +1,286 @@
+main{
+    margin-left: 250px;
+    margin-right: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: none;
+}
+
+.story-bar{
+    display: flex;
+    width: 663px;
+    overflow-x: scroll;
+}
+.story-bar::-webkit-scrollbar{
+    display: none;
+}
+.story-preview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: -5px;
+}
+.acc-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ring{
+    width: 88px;
+    position: relative;
+}
+.pfp{
+    height: 58px;
+    width: 58px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    cursor: pointer;
+}
+.name{
+    font-size: 13px;
+    position: absolute;
+    bottom: -7px;
+    overflow: hidden;
+    width: 80px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.post-layout{
+    margin-top: 10px;
+    margin-left: 16px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post-view{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.post-header{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.post-header-left{
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+}
+.post-pfp{
+    width: 34px;
+    height: 34px;
+    border-radius: 40px;
+    object-fit: cover;
+    object-position: bottom;
+    margin-right: 14px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.post-account{
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+.verification{
+    width: 20px;
+    cursor: pointer;
+}
+.time{
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+}
+.triple-dots{
+    width: 16px;
+    height: 16px;
+    padding-right: 4px;
+    cursor: pointer;
+}
+.post{
+    width: 480px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.post-actions{
+    padding-top: 10px;
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.post-actions img{
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+#icon-resize{
+    height: 22px;
+    width: 22px;
+    margin-left: 18px;
+}
+#save-icon{
+    height: 20px;
+    width: 24px;
+}
+.num-likes{
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.caption{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.mention{
+    color: rgb(29, 161, 242);
+    cursor: pointer;
+}
+.num-comments{
+    font-size: 15px;
+    color: rgb(143, 143, 143);
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+.add-comment{
+    width: 480px;
+    padding-left: 0px;
+    border: none;
+    font-size: 15px;
+    color: rgb(143, 143, 143);
+}
+.add-comment::placeholder{
+    color: rgb(143, 143, 143);
+}
+.add-comment:focus{
+    outline: none;
+}
+
+.account-profile{
+    position: absolute;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+}
+.account-preview:hover .account-profile{
+    opacity: 1;
+}
+.account-info{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.ad-pfp{
+    width: 54px;
+    height: 54px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+.account-details{
+    display: flex;
+    flex-direction: column;
+}
+.ad-username{
+    display: flex;
+}
+.ad-username div{
+    font-size: 15px;
+    font-weight: 700;
+}
+.ad-name{
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+    margin-top: -2px;
+    margin-bottom: 3px;
+}
+.thread{
+    width: max-content;
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    padding: 5px;
+    border-radius: 10px;
+}
+.thread img{
+    width: 14px;
+}
+.thread div{
+    font-size: 12px;
+    margin-left: 2px;
+}
+.account-reach{
+    display: flex;
+    margin-bottom: 15px;
+}
+.ar-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ar-value{
+    font-size: 14px;
+    font-weight: 700;
+}
+.ar-type{
+    font-size: 12.5px;
+}
+.post-grid{
+    display: flex;
+    gap: 3px;
+}
+.post-grid div{
+    flex: 1;
+}
+.post-grid img{
+    width: 100%;
+    height: 116px;
+    object-fit: cover;
+    object-position: center;
+}
+.buttons-grid{
+    display: flex;
+    justify-content: space-around;
+    margin: 11px 15px 15px 15px;
+}
+.buttons-grid button{
+    flex: 1;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+}
+.bg-dm{
+    color: white;
+    background-color: rgb(29, 161, 242);
+    margin-right: 3px;
+    gap: 8px;
+    padding: 7px;
+}
+.bg-flw{
+    background-color: rgb(243, 243, 243);
+    margin-left: 3px;
+}
+.buttons-grid img{
+    width: 17px;
+}

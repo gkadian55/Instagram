@@ -1,0 +1,51 @@
+.menu{
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-right: 1px solid rgb(210, 210, 210);
+}
+.ig-logo{
+    margin-top: 34px;
+    margin-left: 34px;
+    width: 110px;
+    margin-bottom: 21px;
+    cursor: pointer;
+}
+.menu-options{
+    display: flex;
+    flex-direction: column;
+}
+.option-container{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 31px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.option-container:hover{
+    background-color: rgb(238, 238, 238);
+}
+#more{
+    margin-top: 18px;
+}
+.profile-pic{
+    border-radius: 12px;
+}
+.option-container div{
+    margin-left: 17px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.option-container img{
+    width: 24px;
+}
